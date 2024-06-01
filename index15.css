@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(11, 108, 26);
+}
+
+#panel {
+
+    width: 80%;
+    height: 90%;
+    background-color: #91a751;
+    border-radius: 10px;
+}
+
+#ptop {
+    display: flex;
+    color: white;
+    padding: 0px 20%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(110, 193, 145);
+}
+
+.elem {
+    display: flex;
+    color: rgb(24, 88, 11);
+    align-items: center;
+    gap: 20px;
+}
+
+
+.box {
+    color: green;
+    font-weight: bolder;
+    font-size: large;
+    padding: 18px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+#pbtm {
+
+align-items: center;
+justify-content: center;
+
+    display: flex;         /*   1 important for last js step*/
+    gap: 15px;              /* 2   important*/
+    flex-wrap: wrap;        /*  3   */
+    width: 100%;
+    height: 75%;
+    padding: 20px;
+    
+}
+
+.bubble{
+     display: flex;    /*  very important */
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bubble:hover{
+    background-color: rgb(190, 220, 19);
+    cursor: pointer;  
+}
